@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 630px) {
   .wrapper {
     max-width: 100%; }
   .header {
@@ -68,6 +68,9 @@
       margin-top: 15%; }
     .footer .news .form {
       height: 100px; }
+      .footer .news .form .label {
+        top: 10%;
+        left: 13%; }
       .footer .news .form .button {
         border-radius: 5px;
         margin-top: 5%; }

@@ -1,0 +1,57 @@
+@media screen and (min-width: 631px) and (max-width: 1150px) {
+  .warpper {
+    width: 100%; }
+  .header .menu {
+    padding: 30px; }
+  .header .header-content {
+    margin: 30px 0 45px 0;
+    padding: 0 35px 0 40px; }
+    .header .header-content .content__text {
+      padding: 5% 0 4% 0; }
+      .header .header-content .content__text .create-wallet {
+        margin-top: 5%; }
+    .header .header-content .content__img {
+      max-width: 55%; }
+  .main {
+    width: 100%;
+    padding: 0 5px; }
+    .main .content-left .about-text {
+      padding: 15px 20px 20px 20px;
+      height: 220px; }
+      .main .content-left .about-text .text {
+        font-size: 14px;
+        line-height: 25px; }
+    .main .content-left .roadmap {
+      padding: 10%; }
+      .main .content-left .roadmap .roadmap-content {
+        margin-top: 5%;
+        height: 90%; }
+        .main .content-left .roadmap .roadmap-content .item .top .line {
+          width: 68%; } }
+        @media screen and (min-width: 631px) and (max-width: 1150px) and (max-width: 866px) {
+          .main .content-left .roadmap .roadmap-content .item .top .line {
+            max-width: 70px; } }
+
+@media screen and (min-width: 631px) and (max-width: 1150px) {
+    .main .content-right, .main .content-left {
+      width: 49.5%; }
+    .main .free .img,
+    .main .tokens .img,
+    .main .exchange .img,
+    .main .multi .img,
+    .main .roadmap .img {
+      max-width: 300px; }
+    .main .free,
+    .main .tokens,
+    .main .exchange,
+    .main .multi {
+      padding: 15px 20px 20px 20px; }
+  .footer {
+    padding: 85px 20px 60px 20px; }
+    .footer .news {
+      max-width: 40%; }
+      .footer .news .form .input {
+        max-width: 55%; }
+    .footer .by {
+      bottom: 5%;
+      right: 9.5%; } }

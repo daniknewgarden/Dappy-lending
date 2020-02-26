@@ -2,8 +2,7 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
-  border: 1px solid red; }
+  margin: 0; }
 
 ul li {
   list-style: none; }
@@ -124,10 +123,12 @@ body {
     .main .content-left .about-text {
       padding: 45px 40px 40px 40px;
       background-color: #FAFCFF;
-      border-radius: 5px; }
+      border-radius: 5px;
+      max-height: 220px; }
     .main .content-left .roadmap {
       height: 725px;
-      padding: 35px 80px 55px 40px; }
+      padding: 35px 80px 55px 40px;
+      margin-top: 10px; }
       .main .content-left .roadmap .title {
         padding: 0; }
       .main .content-left .roadmap .roadmap-content {
@@ -135,10 +136,13 @@ body {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
         .main .content-left .roadmap .roadmap-content .item {
-          max-width: 145px;
+          width: 32%;
           height: 120px;
           display: -webkit-box;
           display: -ms-flexbox;
@@ -218,6 +222,8 @@ body {
     font-size: 16px;
     line-height: 29px;
     color: #82899B; }
+  .main .free {
+    padding: 35px 110px 40px 40px; }
   .main .free,
   .main .tokens,
   .main .exchange,
@@ -240,6 +246,7 @@ body {
     .main .exchange .img,
     .main .multi .img,
     .main .roadmap .img {
+      margin-top: 20px;
       max-width: 400px;
       -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -248,8 +255,7 @@ body {
   .main .tokens,
   .main .exchange {
     margin-top: 10px;
-    height: 400px; }
-  .main .free,
+    height: 440px; }
   .main .tokens,
   .main .exchange,
   .main .multi {

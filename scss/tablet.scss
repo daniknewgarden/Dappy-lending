@@ -1,1 +1,87 @@
-@media screen and (min-width: 600px)
+@media screen and (min-width: 631px) and (max-width: 1150px) {
+    .warpper {
+        width: 100%;
+    }
+    .header {
+        .menu {
+            padding: 30px;
+        }
+        .header-content {
+            margin: 30px 0 45px 0;
+            padding: 0 35px 0 40px;
+                .content__text {
+                    padding: 5% 0 4% 0;
+                        .create-wallet {
+                            margin-top: 5%;
+                        }
+                }
+                .content__img {
+                    max-width: 55%;
+                }
+        }
+    }
+    .main {
+        width: 100%;
+        padding: 0 5px;
+            .content-left {
+                .about-text {
+                    padding: 15px 20px 20px 20px;
+                    height: 220px;
+                        .text {
+                            font-size: 14px;
+                            line-height: 25px;
+                        }
+                }
+                .roadmap {
+                    padding: 10%;
+                        .roadmap-content {
+                            margin-top: 5%;
+                            height: 90%;
+                            .item {
+                                .top {
+                                    .line {
+                                        width: 68%;
+                                        @media screen and (max-width: 866px) {
+                                            max-width: 70px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                }
+            }
+            .content-right, .content-left {
+                width: 49.5%;
+            }
+            .free,
+            .tokens,
+            .exchange,
+            .multi,
+            .roadmap {
+                .img {
+                    max-width: 300px;
+                }
+            }
+            .free,
+            .tokens,
+            .exchange,
+            .multi {
+                padding: 15px 20px 20px 20px;
+            }
+    }
+    .footer {
+        padding: 85px 20px 60px 20px;
+            .news {
+                max-width: 40%;
+                    .form{
+                        .input {
+                            max-width: 55%;
+                        }
+                    }
+            }
+            .by {
+                bottom: 5%;
+                right: 9.5%;
+            }
+    }
+}
