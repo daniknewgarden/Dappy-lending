@@ -1,0 +1,101 @@
+@media screen and (max-width: 600px) {
+    .wrapper {
+        max-width: 100%;
+    }
+    .header {
+        height: 700px;
+        .menu {
+            padding: 15px;
+                .menu-links {
+                    width: 100%;
+                    justify-content: space-between;
+                    .menu__logo {
+                        width: 100px;
+                    }
+                    .link {
+                        margin: 0;
+                    }  
+                }
+                .social-links {
+                    display: none;
+                }
+        }
+        .header-content {
+            max-width: 80%;
+            margin: 30px;
+            padding: 0;
+                .content__text {
+                    height: 350px;
+                    padding: 40px 0;
+                }
+                .content__img {
+                    max-width: 100%;
+                    position: absolute;
+                    top: 90%;
+                    left: 15%;
+                    z-index: -1;
+                }
+        }
+    }
+    .main {
+        flex-wrap: wrap;
+        padding: 15px;
+            .content-left {
+                width: 100%;
+                    div {
+                        margin-top: 10px;
+                    }
+                    .about-text {
+                        padding: 35px 30px 30px 30px;
+                    }
+                    .roadmap {
+                        padding: 0;
+
+                        .roadmap-content {
+                            .item {
+                                width: 122px;
+                                    .subtitle {
+                                        top: 45px;
+                                    }
+                            }
+                        }
+                    }
+            }
+            .content-right {
+                width: 100%;
+                    div {
+                        margin-top: 10px;
+                    }
+            }
+            .text {
+                margin-top: 5%;
+            }
+            .free,
+            .tokens,
+            .exchange,
+            .multi {
+                padding: 25px 30px 30px 30px;
+            }
+    }
+    .footer {
+        flex-direction: column;
+        padding: 80px;
+            .about, .news, .contacts {
+                width: 100%;
+                text-align: center;
+                margin-top: 15%;
+            }
+            .news {
+                .form {
+                    height: 100px;
+                    .button {
+                        border-radius: 5px;
+                        margin-top: 5%;
+                    }
+                }
+            }
+            .by {
+                display: none;
+            }
+    }
+}

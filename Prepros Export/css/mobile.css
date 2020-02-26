@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+  .wrapper {
+    max-width: 100%; }
+  .header {
+    height: 700px; }
+    .header .menu {
+      padding: 15px; }
+      .header .menu .menu-links {
+        width: 100%;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        .header .menu .menu-links .menu__logo {
+          width: 100px; }
+        .header .menu .menu-links .link {
+          margin: 0; }
+      .header .menu .social-links {
+        display: none; }
+    .header .header-content {
+      max-width: 80%;
+      margin: 30px;
+      padding: 0; }
+      .header .header-content .content__text {
+        height: 350px;
+        padding: 40px 0; }
+      .header .header-content .content__img {
+        max-width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 15%;
+        z-index: -1; } }
+
+.main {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 15px; }
+  .main .content-left {
+    width: 100%; }
+    .main .content-left div {
+      margin-top: 10px; }
+    .main .content-left .about-text {
+      padding: 35px 30px 30px 30px; }
+    .main .content-left .roadmap {
+      padding: 0; }
+      .main .content-left .roadmap .roadmap-content .item {
+        max-width: 130px; }
+        .main .content-left .roadmap .roadmap-content .item .subtitle {
+          top: 45px; }
+  .main .content-right {
+    width: 100%; }
+    .main .content-right div {
+      margin-top: 10px; }
+  .main .text {
+    margin-top: 5%; }
+  .main .free,
+  .main .tokens,
+  .main .exchange,
+  .main .multi {
+    padding: 25px 30px 30px 30px; }
