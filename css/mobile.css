@@ -38,7 +38,8 @@
       .main .content-left div {
         margin-top: 10px; }
       .main .content-left .about-text {
-        padding: 35px 30px 30px 30px; }
+        padding: 35px 30px 30px 30px;
+        max-height: 430px; }
       .main .content-left .roadmap {
         padding: 0; }
         .main .content-left .roadmap .roadmap-content .item {
