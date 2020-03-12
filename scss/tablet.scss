@@ -23,7 +23,22 @@
     .main {
         width: 100%;
         padding: 0 5px;
+            .content-right,
             .content-left {
+                width: 49.5%;
+            }
+
+            .box {
+                padding: 15px 20px 20px 20px;
+
+                .img {
+                    max-width: 300px;
+                }
+            }
+            .content-left {
+                .free {
+                    padding-right: 20px;
+                }
                 .about-text {
                     padding: 15px 20px 20px 20px;
                     height: 220px;
@@ -49,24 +64,6 @@
                             }
                         }
                 }
-            }
-            .content-right, .content-left {
-                width: 49.5%;
-            }
-            .free,
-            .tokens,
-            .exchange,
-            .multi,
-            .roadmap {
-                .img {
-                    max-width: 300px;
-                }
-            }
-            .free,
-            .tokens,
-            .exchange,
-            .multi {
-                padding: 15px 20px 20px 20px;
             }
     }
     .footer {

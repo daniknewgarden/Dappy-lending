@@ -40,10 +40,17 @@
     .main {
         flex-wrap: wrap;
         padding: 15px;
+            .text {
+                margin-top: 5%;
+            }
+            .box {
+                padding: 25px 30px 30px 30px;
+
+            }
             .content-left {
                 width: 100%;
-                    div {
-                        margin-top: 10px;
+                    .free {
+                        padding-right: 30px;
                     }
                     .about-text {
                         padding: 35px 30px 30px 30px;
@@ -51,12 +58,14 @@
                     }
                     .roadmap {
                         padding: 0;
-
+                        .title {
+                            margin-top: 30px;
+                        }
                         .roadmap-content {
                             .item {
                                 width: 122px;
                                     .subtitle {
-                                        top: 45px;
+                                        top: 35px;
                                     }
                             }
                         }
@@ -64,18 +73,7 @@
             }
             .content-right {
                 width: 100%;
-                    div {
-                        margin-top: 10px;
-                    }
-            }
-            .text {
-                margin-top: 5%;
-            }
-            .free,
-            .tokens,
-            .exchange,
-            .multi {
-                padding: 25px 30px 30px 30px;
+                    
             }
     }
     .footer {
