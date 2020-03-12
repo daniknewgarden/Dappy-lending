@@ -98,8 +98,32 @@ body {
     padding: 0 30px;
     display: flex;
     justify-content: space-between;
+        .box {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-color: #FAFCFF;
+            border-radius: 5px;
+            margin-top: 10px;
+            height: 440px;
+            padding: 35px 40px 40px 40px;
+            .img {
+                margin-top: 20px;
+                max-width: 400px;
+                align-self: center;
+            }
+        }
+        .text {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 29px;
+            color: $text;
+        }
         .content-left {
             max-width: 565px;
+                .free {
+                    padding-right: 110px;
+                }
                 .about-text {
                     padding: 45px 40px 40px 40px;
                     background-color: #FAFCFF;
@@ -189,45 +213,15 @@ body {
         }
         .content-right {
             max-width: 565px;
-        }
-        .text {
-            font-weight: 300;
-            font-size: 16px;
-            line-height: 29px;
-            color: $text;
-        }
-        .free {
-            padding: 35px 110px 40px 40px;
-        }
-        .free,
-        .tokens,
-        .exchange,
-        .multi,
-        .roadmap {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #FAFCFF;
-            border-radius: 5px;
-                .img {
-                    margin-top: 20px;
-                    max-width: 400px;
-                    align-self: center;
-                }
-        }
-        .free,
-        .tokens,
-        .exchange {
-            margin-top: 10px;
-            height: 440px;
-        }
-        .tokens,
-        .exchange, 
-        .multi {
-            padding: 35px 40px 40px 40px;
-        }
-        .multi {
-            height: 505px;
+            .box {
+                padding: 35px 40px 40px 40px;
+                margin-top: 10px;
+                height: 440px;
+            }
+            .multi {
+                height: 505px;
+                margin-top: 0;
+            }
         }
 }
 .footer {
